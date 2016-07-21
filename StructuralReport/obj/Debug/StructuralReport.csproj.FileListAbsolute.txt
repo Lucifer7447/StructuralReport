@@ -1,1 +1,9 @@
 c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\bin\Debug\StructuralReport.exe.config
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\obj\Debug\StructuralReport.csprojResolveAssemblyReference.cache
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\obj\Debug\StructuralReport.MainForm.resources
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\obj\Debug\StructuralReport.Properties.Resources.resources
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\obj\Debug\StructuralReport.csproj.GenerateResource.Cache
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\bin\Debug\StructuralReport.exe
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\bin\Debug\StructuralReport.pdb
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\obj\Debug\StructuralReport.exe
+c:\users\chaos\documents\visual studio 2015\Projects\StructuralReport\StructuralReport\obj\Debug\StructuralReport.pdb
