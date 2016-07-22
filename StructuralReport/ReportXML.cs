@@ -50,8 +50,54 @@ namespace StructuralReport
                 return true;
 
             }
-            
-            public ArrayList GetReportLists()
+
+        public XmlNodeList GetSelectReport(string ReprotName)
+            {
+            //ArrayList ContentA = new ArrayList();
+            //try
+            //{
+            //    XmlNode ReportNode = reportxml.SelectSingleNode("//StructuralReports//Report[@name='" + ReprotName+"']");//指定一个节点
+
+            //    XmlNodeList ReportContent = ReportNode.ChildNodes;//获取节点下所有直接子节点
+            //                                                      //XmlNodeList nodelist = xml.SelectNodes("/Root/News");//获取同名同级节点集合string id=node.Attributes["id"].Value;//获取指定节点的指定属性值
+            //                                                      //string content = node.InnerText;//获取指定节点中的文本
+            //                                                      //root.HasChildNodes;//判断该节点下是否有子节点
+
+            //    foreach (XmlNode ItemContent in ReportContent)
+            //    {
+            //        XmlElement reportElement = (XmlElement)ItemContent;
+            //        ContentA.Add(reportElement.Name);
+
+            //    }
+            //}
+            //catch (Exception e)
+            //{
+            //    MessageBox.Show(e.ToString(), "错误");
+
+            //    throw;
+            //}
+
+            //return ContentA;
+            XmlNodeList ReportContent ;
+            try
+            {
+                XmlNode ReportNode = reportxml.SelectSingleNode("//StructuralReports//Report[@name='" + ReprotName + "']");//指定一个节点
+
+                ReportContent = ReportNode.ChildNodes;
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString(), "错误");
+
+                throw;
+            }
+
+            return ReportContent;
+
+        }
+
+        public ArrayList GetReportLists()
             {
                 return this.reportlists;
             }
